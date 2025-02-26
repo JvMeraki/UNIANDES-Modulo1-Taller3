@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.10">
+  <diagram name="Page-1" id="CX_3kMs4xohey2ZQc1Dg">
+    <mxGraphModel dx="1425" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WWAcv24G5TjjWUqAOeE2-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;b&gt;Concentrado&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre: str&lt;br&gt;- precio: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- num_calorias: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- reg_invima: str&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;init&lt;/b&gt;(nombre:str, precio:float, num_calorias:float, reg_invima:str): None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ dar_informacion(): str&lt;br&gt;+ calcular_rentabilidad(): float&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WWAcv24G5TjjWUqAOeE2-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Guarderia&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# nombre: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ concentrados: list&amp;lt;str&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ inventario_concentrados: list&amp;lt;concentrado&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;init&lt;/b&gt;(): None&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ agregar_concentrado(concentrado: Concentrado): None&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WWAcv24G5TjjWUqAOeE2-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Perro&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- raza: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- peso: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- edad: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- concentrado_preferido: str&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+&amp;nbsp;&lt;b&gt;init&lt;/b&gt;(nombre:str, raza:str, peso:float, edad:int, concentrado_preferido:str): None&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ ladrar(): str&lt;br&gt;+ modificar_peso(nuevo_peso: float): float&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ dar_nombre(): str&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ dar_concentrado_preferido(): str&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ dar_informacion(): str&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="560" width="442.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WWAcv24G5TjjWUqAOeE2-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WWAcv24G5TjjWUqAOeE2-4" target="WWAcv24G5TjjWUqAOeE2-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="610" as="sourcePoint" />
+            <mxPoint x="380" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWAcv24G5TjjWUqAOeE2-6" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WWAcv24G5TjjWUqAOeE2-3" target="WWAcv24G5TjjWUqAOeE2-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="740" as="sourcePoint" />
+            <mxPoint x="290" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWAcv24G5TjjWUqAOeE2-7" value="Guarderia &quot;1&quot; *-- &quot;many&quot; Concentrado : Contiene&lt;br&gt;Perro &quot;1&quot; --&amp;gt; &quot;1&quot; Concentrado : Usa (preferencia)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
